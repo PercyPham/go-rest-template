@@ -1,0 +1,5 @@
+# built app
+main
+
+# env file
+.env
