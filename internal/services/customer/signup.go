@@ -3,8 +3,8 @@ package customer
 import (
 	"errors"
 
-	"github.com/percypham/go-rest-template/pkg/models"
-	"github.com/percypham/go-rest-template/pkg/services/utils"
+	"github.com/percypham/go-rest-template/internal/models"
+	"github.com/percypham/go-rest-template/internal/services/utils"
 )
 
 func (s service) SignUp(cus models.Customer) (models.Customer, error) {

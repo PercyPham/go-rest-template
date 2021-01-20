@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/percypham/go-rest-template/configs"
-	"github.com/percypham/go-rest-template/pkg/http/rest"
-	"github.com/percypham/go-rest-template/pkg/storage/mongo"
+	"github.com/percypham/go-rest-template/internal/http/rest"
+	"github.com/percypham/go-rest-template/internal/storage/mongo"
 )
 
 // Run server

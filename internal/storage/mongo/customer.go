@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/percypham/go-rest-template/pkg/models"
+	"github.com/percypham/go-rest-template/internal/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

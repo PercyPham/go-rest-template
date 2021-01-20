@@ -55,6 +55,12 @@ Get mongodb connection uri:
 ./script.sh mongo uri
 ```
 
+Note: If has `permission denied` error when running script, then grant permission for the script with following command:
+
+```
+chmod +x ./script/path
+```
+
 #### Run project in dev mode:
 
 ```

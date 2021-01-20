@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/percypham/go-rest-template/pkg/models"
-	"github.com/percypham/go-rest-template/pkg/services/customer"
+	"github.com/percypham/go-rest-template/internal/models"
+	"github.com/percypham/go-rest-template/internal/services/customer"
 )
 
 func genSignUpHandler(cs customer.Service) http.HandlerFunc {

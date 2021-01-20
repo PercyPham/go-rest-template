@@ -1,6 +1,6 @@
 package customer
 
-import "github.com/percypham/go-rest-template/pkg/models"
+import "github.com/percypham/go-rest-template/internal/models"
 
 // Repository for customer use cases
 type Repository interface {

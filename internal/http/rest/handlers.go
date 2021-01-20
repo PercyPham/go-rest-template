@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	CustomerService "github.com/percypham/go-rest-template/pkg/services/customer"
-	"github.com/percypham/go-rest-template/pkg/storage/mongo"
 	"github.com/gorilla/mux"
+	CustomerService "github.com/percypham/go-rest-template/internal/services/customer"
+	"github.com/percypham/go-rest-template/internal/storage/mongo"
 )
 
 // Handler is to handle all http requests. Will return Mux router.
